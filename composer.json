@@ -1,0 +1,20 @@
+{
+    "name": "machinacyfrowa/teb-chan",
+    "description": "Forum obrazkowe",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Machinacyfrowa\\TebChan\\": "class/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paweł Zawadzki",
+            "email": "pawel.zawadzki2@teb.edu.pl"
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.7.1",
+        "smarty/smarty": "^5.4"
+    }
+}
